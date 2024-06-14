@@ -1,37 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-06-14 10:03:47 by Eclipse SUMO netedit Version 1.20.0
+<!-- generated on 2024-06-13 23:12:37 by Eclipse SUMO netedit Version 1.20.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-
-    <vType id="CarA" length="5.00" minGap="2.50" maxSpeed="10.00" accel="3.0" decel="6.0"
-        sigma="0.5" guiShape="passenger" />
-    <vType id="CarB" length="7.50" minGap="2.50" maxSpeed="50.00" accel="2.0" decel="6.0"
-        sigma="0.5" guiShape="passenger" />
-    <vType id="CarC" length="5.00" minGap="2.50" maxSpeed="40.00" accel="1.0" decel="5.0"
-        sigma="0.5" guiShape="passenger" />
-    <vType id="CarD" length="7.50" minGap="2.50" maxSpeed="30.00" accel="1.0" decel="5.0"
-        sigma="0.5" guiShape="passenger" />
-
     <!-- Routes -->
-    <route id="r_0" edges="-E11 E0 E13" />
-    <route id="r_1" edges="-E11 E5 -E6 -E10" />
-    <route id="r_10" edges="E10 E6 -E5 E11" />
-    <route id="r_11" edges="E10 E6 E3 E13" />
-    <route id="r_12" edges="-E12 E12" />
-    <route id="r_13" edges="-E12 -E4 -E6 -E10" />
-    <route id="r_14" edges="-E12 -E4 E3 E13" />
-    <route id="r_15" edges="-E12 E7 E11" />
-    <route id="r_2" edges="-E11 E11" />
-    <route id="r_3" edges="-E11 E5 E4 E12" />
-    <route id="r_4" edges="-E13 E13" />
-    <route id="r_5" edges="-E13 -E3 -E5 E11" />
-    <route id="r_6" edges="-E13 -E3 E4 E12" />
-    <route id="r_7" edges="-E13 E1 -E10" />
-    <route id="r_8" edges="E10 -E10" />
-    <route id="r_9" edges="E10 E2 E12" />
+    <route id="r_0" edges="-E11 E16 E13" />
+    <route id="r_1" edges="-E11 E16 E17 -E10" />
+    <route id="r_10" edges="E10 E14 E15 E16 E13" />
+    <route id="r_11" edges="E10 E14 E15 E16 E17 -E10" />
+    <route id="r_12" edges="-E12 E15 E11" />
+    <route id="r_13" edges="-E12 E15 E16 E13" />
+    <route id="r_14" edges="-E12 E15 E16 E17 -E10" />
+    <route id="r_15" edges="-E12 E15 E16 E17 E14 E12" />
+    <route id="r_2" edges="-E11 E16 E17 E14 E12" />
+    <route id="r_3" edges="-E11 E16 E17 E14 E15 E11" />
+    <route id="r_4" edges="-E13 E17 -E10" />
+    <route id="r_5" edges="-E13 E17 E14 E12" />
+    <route id="r_6" edges="-E13 E17 E14 E15 E11" />
+    <route id="r_7" edges="-E13 E17 E14 E15 E16 E13" />
+    <route id="r_8" edges="E10 E14 E12" />
+    <route id="r_9" edges="E10 E14 E15 E11" />
+
+
+    <vType accel="3.0" decel="6.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="10.0" sigma="0.5" />
+    <vType accel="2.0" decel="6.0" id="CarB" length="7.5" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+    <vType accel="1.0" decel="5.0" id="CarC" length="5.0" minGap="2.5" maxSpeed="40.0" sigma="0.5" />
+    <vType accel="1.0" decel="5.0" id="CarD" length="7.5" minGap="2.5" maxSpeed="30.0" sigma="0.5" />
+
 
     <vehicle id="0veh418" type="CarB" depart="0.00" color="blue" route="r_11" />
     <vehicle id="0veh419" type="CarC" depart="0.00" color="yellow" route="r_11" />
