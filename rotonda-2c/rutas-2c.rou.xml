@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-06-13 23:12:37 by Eclipse SUMO netedit Version 1.20.0 -->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Routes -->
+    <route id="r_0" edges="-E11 E16 E13"/>
+    <route id="r_1" edges="-E11 E16 E17 -E10"/>
+    <route id="r_10" edges="E10 E14 E15 E16 E13"/>
+    <route id="r_11" edges="E10 E14 E15 E16 E17 -E10"/>
+    <route id="r_12" edges="-E12 E15 E11"/>
+    <route id="r_13" edges="-E12 E15 E16 E13"/>
+    <route id="r_14" edges="-E12 E15 E16 E17 -E10"/>
+    <route id="r_15" edges="-E12 E15 E16 E17 E14 E12"/>
+    <route id="r_2" edges="-E11 E16 E17 E14 E12"/>
+    <route id="r_3" edges="-E11 E16 E17 E14 E15 E11"/>
+    <route id="r_4" edges="-E13 E17 -E10"/>
+    <route id="r_5" edges="-E13 E17 E14 E12"/>
+    <route id="r_6" edges="-E13 E17 E14 E15 E11"/>
+    <route id="r_7" edges="-E13 E17 E14 E15 E16 E13"/>
+    <route id="r_8" edges="E10 E14 E12"/>
+    <route id="r_9" edges="E10 E14 E15 E11"/>
+
+    <!-- Vehicle Types -->
+    <vType accel="3.0" decel="6.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="10.0" sigma="0.5" />
+    <vType accel="2.0" decel="6.0" id="CarB" length="7.5" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+    <vType accel="1.0" decel="5.0" id="CarC" length="5.0" minGap="2.5" maxSpeed="40.0" sigma="0.5" />
+    <vType accel="1.0" decel="5.0" id="CarD" length="7.5" minGap="2.5" maxSpeed="30.0" sigma="0.5" />
+
+    <!-- Vehicles -->
+    <!-- Vehicles distributed randomly across routes -->
+    <vehicle depart="0" id="veh0" route="r_0" type="CarA" color="1,0,0" />
+    <vehicle depart="10" id="veh1" route="r_1" type="CarB" color="0,1,0" />
+    <vehicle depart="20" id="veh2" route="r_2" type="CarC" color="0,0,1" />
+    <vehicle depart="30" id="veh3" route="r_3" type="CarD" color="1,1,0" />
+    <vehicle depart="40" id="veh4" route="r_4" type="CarA" color="1,0.1,0.1" />
+    <vehicle depart="50" id="veh5" route="r_5" type="CarB" color="0.1,1,0.1" />
+    <vehicle depart="60" id="veh6" route="r_6" type="CarC" color="0.1,0.1,1" />
+    <vehicle depart="70" id="veh7" route="r_7" type="CarD" color="1,0.9,0.1" />
+    <vehicle depart="80" id="veh8" route="r_8" type="CarA" color="1,0.2,0.2" />
+    <vehicle depart="90" id="veh9" route="r_9" type="CarB" color="0.2,1,0.2" />
+    <vehicle depart="100" id="veh10" route="r_10" type="CarC" color="0.2,0.2,1" />
+    <vehicle depart="110" id="veh11" route="r_11" type="CarD" color="1,0.8,0.2" />
+    <vehicle depart="120" id="veh12" route="r_12" type="CarA" color="1,0.3,0.3" />
+    <vehicle depart="130" id="veh13" route="r_13" type="CarB" color="0.3,1,0.3" />
+    <vehicle depart="140" id="veh14" route="r_14" type="CarC" color="0.3,0.3,1" />
+    <vehicle depart="150" id="veh15" route="r_15" type="CarD" color="1,0.7,0.3" />
+    <vehicle depart="160" id="veh16" route="r_0" type="CarA" color="1,0.4,0.4" />
+    <vehicle depart="170" id="veh17" route="r_1" type="CarB" color="0.4,1,0.4" />
+    <vehicle depart="180" id="veh18" route="r_2" type="CarC" color="0.4,0.4,1" />
+    <vehicle depart="190" id="veh19" route="r_3" type="CarD" color="1,0.6,0.4" />
+    <vehicle depart="200" id="veh20" route="r_4" type="CarA" color="1,0.5,0.5" />
+    <vehicle depart="210" id="veh21" route="r_5" type="CarB" color="0.5,1,0.5" />
+    <vehicle depart="220" id="veh22" route="r_6" type="CarC" color="0.5,0.5,1" />
+    <vehicle depart="230" id="veh23" route="r_7" type="CarD" color="1,0.5,0.5" />
+    <vehicle depart="240" id="veh24" route="r_8" type="CarA" color="1,0.6,0.6" />
+    <vehicle depart="250" id="veh25" route="r_9" type="CarB" color="0.6,1,0.6" />
+    <vehicle depart="260" id="veh26" route="r_10" type="CarC" color="0.6,0.6,1" />
+    <vehicle depart="270" id="veh27" route="r_11" type="CarD" color="1,0.4,0.6" />
+    <vehicle depart="280" id="veh28" route="r_12" type="CarA" color="1,0.7,0.7" />
+    <vehicle depart="290" id="veh29" route="r_13" type="CarB" color="0.7,1,0.7" />
+    <vehicle depart="300" id="veh30" route="r_14" type="CarC" color="0.7,0.7,1" />
+    <vehicle depart="310" id="veh31" route="r_15" type="CarD" color="1,0.3,0.7" />
+    <vehicle depart="320" id="veh32" route="r_0" type="CarA" color="1,0.8,0.8" />
+    <vehicle depart="330" id="veh33" route="r_1" type="CarB" color="0.8,1,0.8" />
+    <vehicle depart="340" id="veh34" route="r_2" type="CarC" color="0.8,0.8,1" />
+    <vehicle depart="350" id="veh35" route="r_3" type="CarD" color="1,0.2,0.8" />
+    <vehicle depart="360" id="veh36" route="r_4" type="CarA" color="1,0.9,0.9" />
+    <vehicle depart="370" id="veh37" route="r_5" type="CarB" color="0.9,1,0.9" />
+    <vehicle depart="380" id="veh38" route="r_6" type="CarC" color="0.9,0.9,1" />
+    <vehicle depart="390" id="veh39" route="r_7" type="CarD" color="1,0.1,0.9" />
+    <vehicle depart="400" id="veh40" route="r_8" type="CarA" color="1,1,0.9" />
+    <vehicle depart="410" id="veh41" route="r_9" type="CarB" color="0.1,1,1" />
+    <vehicle depart="420" id="veh42" route="r_10" type="CarC" color="0.2,1,1" />
+    <vehicle depart="430" id="veh43" route="r_11" type="CarD" color="1,1,0.2" />
+    <vehicle depart="440" id="veh44" route="r_12" type="CarA" color="1,1,0.3" />
+    <vehicle depart="450" id="veh45" route="r_13" type="CarB" color="0.3,1,1" />
+    <vehicle depart="460" id="veh46" route="r_14" type="CarC" color="0.4,1,1" />
+    <vehicle depart="470" id="veh47" route="r_15" type="CarD" color="1,1,0.4" />
+    <vehicle depart="480" id="veh48" route="r_0" type="CarA" color="1,1,0.5" />
+    <vehicle depart="490" id="veh49" route="r_1" type="CarB" color="0.5,1,1" />
+    <vehicle depart="500" id="veh50" route="r_2" type="CarC" color="0.6,1,1" />
+    <vehicle depart="510" id="veh51" route="r_3" type="CarD" color="1,1,0.6" />
+    <vehicle depart="520" id="veh52" route="r_4" type="CarA" color="1,1,0.7" />
+    <vehicle depart="530" id="veh53" route="r_5" type="CarB" color="0.7,1,1" />
+    <vehicle depart="540" id="veh54" route="r_6" type="CarC" color="0.8,1,1" />
+    <vehicle depart="550" id="veh55" route="r_7" type="CarD" color="1,1,0.8" />
+    <vehicle depart="560" id="veh56" route="r_8" type="CarA" color="1,1,0.9" />
+    <vehicle depart="570" id="veh57" route="r_9" type="CarB" color="0.9,1,1" />
+    <vehicle depart="580" id="veh58" route="r_10" type="CarC" color="0.1,1,0.1" />
+    <vehicle depart="590" id="veh59" route="r_11" type="CarD" color="1,1,0.1" />
+    <vehicle depart="600" id="veh60" route="r_12" type="CarA" color="1,0.2,0.1" />
+    <vehicle depart="610" id="veh61" route="r_13" type="CarB" color="0.2,1,0.1" />
+    <vehicle depart="620" id="veh62" route="r_14" type="CarC" color="0.3,0.2,1" />
+    <vehicle depart="630" id="veh63" route="r_15" type="CarD" color="1,0.3,0.2" />
+    <vehicle depart="640" id="veh64" route="r_0" type="CarA" color="1,0.3,0.4" />
+    <vehicle depart="650" id="veh65" route="r_1" type="CarB" color="0.3,0.4,1" />
+    <vehicle depart="660" id="veh66" route="r_2" type="CarC" color="0.4,0.5,1" />
+    <vehicle depart="670" id="veh67" route="r_3" type="CarD" color="1,0.4,0.5" />
+    <vehicle depart="680" id="veh68" route="r_4" type="CarA" color="1,0.5,0.6" />
+    <vehicle depart="690" id="veh69" route="r_5" type="CarB" color="0.5,0.6,1" />
+    <vehicle depart="700" id="veh70" route="r_6" type="CarC" color="0.6,0.7,1" />
+    <vehicle depart="710" id="veh71" route="r_7" type="CarD" color="1,0.6,0.7" />
+    <vehicle depart="720" id="veh72" route="r_8" type="CarA" color="1,0.7,0.8" />
+    <vehicle depart="730" id="veh73" route="r_9" type="CarB" color="0.7,0.8,1" />
+    <vehicle depart="740" id="veh74" route="r_10" type="CarC" color="0.8,0.9,1" />
+    <vehicle depart="750" id="veh75" route="r_11" type="CarD" color="1,0.8,0.9" />
+    <vehicle depart="760" id="veh76" route="r_12" type="CarA" color="1,0.9,1" />
+    <vehicle depart="770" id="veh77" route="r_13" type="CarB" color="0.9,1,0.2" />
+    <vehicle depart="780" id="veh78" route="r_14" type="CarC" color="0.1,0.2,1" />
+    <vehicle depart="790" id="veh79" route="r_15" type="CarD" color="1,1,0.3" />
+    <vehicle depart="800" id="veh80" route="r_0" type="CarA" color="1,0.1,0.2" />
+    <vehicle depart="810" id="veh81" route="r_1" type="CarB" color="0.2,0.3,1" />
+    <vehicle depart="820" id="veh82" route="r_2" type="CarC" color="0.3,0.4,1" />
+    <vehicle depart="830" id="veh83" route="r_3" type="CarD" color="1,0.3,0.4" />
+    <vehicle depart="840" id="veh84" route="r_4" type="CarA" color="1,0.4,0.5" />
+    <vehicle depart="850" id="veh85" route="r_5" type="CarB" color="0.4,0.5,1" />
+    <vehicle depart="860" id="veh86" route="r_6" type="CarC" color="0.5,0.6,1" />
+    <vehicle depart="870" id="veh87" route="r_7" type="CarD" color="1,0.5,0.6" />
+    <vehicle depart="880" id="veh88" route="r_8" type="CarA" color="1,0.6,0.7" />
+    <vehicle depart="890" id="veh89" route="r_9" type="CarB" color="0.6,0.7,1" />
+    <vehicle depart="900" id="veh90" route="r_10" type="CarC" color="0.7,0.8,1" />
+    <vehicle depart="910" id="veh91" route="r_11" type="CarD" color="1,0.7,0.8" />
+    <vehicle depart="920" id="veh92" route="r_12" type="CarA" color="1,0.8,0.9" />
+    <vehicle depart="930" id="veh93" route="r_13" type="CarB" color="0.8,0.9,1" />
+    <vehicle depart="940" id="veh94" route="r_14" type="CarC" color="0.9,1,1" />
+    <vehicle depart="950" id="veh95" route="r_15" type="CarD" color="1,0.9,1" />
+    <vehicle depart="960" id="veh96" route="r_0" type="CarA" color="1,1,0.1" />
+    <vehicle depart="970" id="veh97" route="r_1" type="CarB" color="0.1,1,0.2" />
+    <vehicle depart="980" id="veh98" route="r_2" type="CarC" color="0.2,0.3,1" />
+    <vehicle depart="990" id="veh99" route="r_3" type="CarD" color="1,1,0.2" />
+    <vehicle depart="1000" id="veh100" route="r_4" type="CarA" color="1,0.3,0.3" />
+    <vehicle depart="1010" id="veh101" route="r_5" type="CarB" color="0.3,1,0.3" />
+    <vehicle depart="1020" id="veh102" route="r_6" type="CarC" color="0.3,0.3,1" />
+    <vehicle depart="1030" id="veh103" route="r_7" type="CarD" color="1,0.8,0.3" />
+    <vehicle depart="1040" id="veh104" route="r_8" type="CarA" color="1,0.4,0.4" />
+    <vehicle depart="1050" id="veh105" route="r_9" type="CarB" color="0.4,1,0.4" />
+    <vehicle depart="1060" id="veh106" route="r_10" type="CarC" color="0.4,0.4,1" />
+    <vehicle depart="1070" id="veh107" route="r_11" type="CarD" color="1,0.6,0.4" />
+    <vehicle depart="1080" id="veh108" route="r_12" type="CarA" color="1,0.5,0.5" />
+    <vehicle depart="1090" id="veh109" route="r_13" type="CarB" color="0.5,1,0.5" />
+    <vehicle depart="1100" id="veh110" route="r_14" type="CarC" color="0.5,0.5,1" />
+    <vehicle depart="1110" id="veh111" route="r_15" type="CarD" color="1,0.5,0.5" />
+    <vehicle depart="1120" id="veh112" route="r_0" type="CarA" color="1,0.6,0.6" />
+    <vehicle depart="1130" id="veh113" route="r_1" type="CarB" color="0.6,1,0.6" />
+    <vehicle depart="1140" id="veh114" route="r_2" type="CarC" color="0.6,0.6,1" />
+    <vehicle depart="1150" id="veh115" route="r_3" type="CarD" color="1,0.4,0.6" />
+    <vehicle depart="1160" id="veh116" route="r_4" type="CarA" color="1,0.7,0.7" />
+    <vehicle depart="1170" id="veh117" route="r_5" type="CarB" color="0.7,1,0.7" />
+    <vehicle depart="1180" id="veh118" route="r_6" type="CarC" color="0.7,0.7,1" />
+    <vehicle depart="1190" id="veh119" route="r_7" type="CarD" color="1,0.3,0.7" />
+    <vehicle depart="1200" id="veh120" route="r_8" type="CarA" color="1,0.8,0.8" />
+    <vehicle depart="1210" id="veh121" route="r_9" type="CarB" color="0.8,1,0.8" />
+    <vehicle depart="1220" id="veh122" route="r_10" type="CarC" color="0.8,0.8,1" />
+    <vehicle depart="1230" id="veh123" route="r_11" type="CarD" color="1,0.2,0.8" />
+    <vehicle depart="1240" id="veh124" route="r_12" type="CarA" color="1,0.9,0.9" />
+    <vehicle depart="1250" id="veh125" route="r_13" type="CarB" color="0.9,1,0.9" />
+    <vehicle depart="1260" id="veh126" route="r_14" type="CarC" color="0.9,0.9,1" />
+    <vehicle depart="1270" id="veh127" route="r_15" type="CarD" color="1,0.1,0.9" />
+    <vehicle depart="1280" id="veh128" route="r_0" type="CarA" color="1,1,0.9" />
+    <vehicle depart="1290" id="veh129" route="r_1" type="CarB" color="0.1,1,1" />
+    <vehicle depart="1300" id="veh130" route="r_2" type="CarC" color="0.2,1,1" />
+    <vehicle depart="1310" id="veh131" route="r_3" type="CarD" color="1,1,0.2" />
+    <vehicle depart="1320" id="veh132" route="r_4" type="CarA" color="1,1,0.3" />
+    <vehicle depart="1330" id="veh133" route="r_5" type="CarB" color="0.3,1,1" />
+    <vehicle depart="1340" id="veh134" route="r_6" type="CarC" color="0.4,1,1" />
+    <vehicle depart="1350" id="veh135" route="r_7" type="CarD" color="1,1,0.4" />
+    <vehicle depart="1360" id="veh136" route="r_8" type="CarA" color="1,1,0.5" />
+    <vehicle depart="1370" id="veh137" route="r_9" type="CarB" color="0.5,1,1" />
+    <vehicle depart="1380" id="veh138" route="r_10" type="CarC" color="0.6,1,1" />
+    <vehicle depart="1390" id="veh139" route="r_11" type="CarD" color="1,1,0.6" />
+    <vehicle depart="1400" id="veh140" route="r_12" type="CarA" color="1,1,0.7" />
+    <vehicle depart="1410" id="veh141" route="r_13" type="CarB" color="0.7,1,1" />
+    <vehicle depart="1420" id="veh142" route="r_14" type="CarC" color="0.8,1,1" />
+    <vehicle depart="1430" id="veh143" route="r_15" type="CarD" color="1,1,0.8" />
+    <vehicle depart="1440" id="veh144" route="r_0" type="CarA" color="1,1,0.9" />
+    <vehicle depart="1450" id="veh145" route="r_1" type="CarB" color="0.9,1,1" />
+    <vehicle depart="1460" id="veh146" route="r_2" type="CarC" color="0.1,1,0.1" />
+    <vehicle depart="1470" id="veh147" route="r_3" type="CarD" color="1,1,0.1" />
+    <vehicle depart="1480" id="veh148" route="r_4" type="CarA" color="1,0.2,0.1" />
+    <vehicle depart="1490" id="veh149" route="r_5" type="CarB" color="0.2,1,0.1" />
+    <vehicle depart="1500" id="veh150" route="r_6" type="CarC" color="0.3,0.2,1" />
+    <vehicle depart="1510" id="veh151" route="r_7" type="CarD" color="1,0.3,0.2" />
+    <vehicle depart="1520" id="veh152" route="r_8" type="CarA" color="1,0.3,0.4" />
+    <vehicle depart="1530" id="veh153" route="r_9" type="CarB" color="0.3,0.4,1" />
+    <vehicle depart="1540" id="veh154" route="r_10" type="CarC" color="0.4,0.5,1" />
+    <vehicle depart="1550" id="veh155" route="r_11" type="CarD" color="1,0.4,0.5" />
+    <vehicle depart="1560" id="veh156" route="r_12" type="CarA" color="1,0.5,0.6" />
+    <vehicle depart="1570" id="veh157" route="r_13" type="CarB" color="0.5,0.1,0.9" />
+    <vehicle depart="1580" id="veh158" route="r_13" type="CarB" color="0.5,0.1,0.9" />
+    <vehicle depart="1590" id="veh159" route="r_14" type="CarC" color="0.1,0.5,0.9" />
+    <vehicle depart="1600" id="veh160" route="r_15" type="CarD" color="0.9,0.5,0.1" />
+    <vehicle depart="1610" id="veh161" route="r_0" type="CarA" color="1,0.6,0.6" />
+    <vehicle depart="1620" id="veh162" route="r_1" type="CarB" color="0.6,1,0.6" />
+    <vehicle depart="1630" id="veh163" route="r_2" type="CarC" color="0.6,0.6,1" />
+    <vehicle depart="1640" id="veh164" route="r_3" type="CarD" color="1,0.4,0.6" />
+    <vehicle depart="1650" id="veh165" route="r_4" type="CarA" color="1,0.7,0.7" />
+    <vehicle depart="1660" id="veh166" route="r_5" type="CarB" color="0.7,1,0.7" />
+    <vehicle depart="1670" id="veh167" route="r_6" type="CarC" color="0.7,0.7,1" />
+    <vehicle depart="1680" id="veh168" route="r_7" type="CarD" color="1,0.3,0.7" />
+    <vehicle depart="1690" id="veh169" route="r_8" type="CarA" color="1,0.8,0.8" />
+    <vehicle depart="1700" id="veh170" route="r_9" type="CarB" color="0.8,1,0.8" />
+    <vehicle depart="1710" id="veh171" route="r_10" type="CarC" color="0.8,0.8,1" />
+    <vehicle depart="1720" id="veh172" route="r_11" type="CarD" color="1,0.2,0.8" />
+    <vehicle depart="1730" id="veh173" route="r_12" type="CarA" color="1,0.9,0.9" />
+    <vehicle depart="1740" id="veh174" route="r_13" type="CarB" color="0.9,1,0.9" />
+    <vehicle depart="1750" id="veh175" route="r_14" type="CarC" color="0.9,0.9,1" />
+    <vehicle depart="1760" id="veh176" route="r_15" type="CarD" color="1,0.1,0.9" />
+    <vehicle depart="1770" id="veh177" route="r_0" type="CarA" color="1,1,0.9" />
+    <vehicle depart="1780" id="veh178" route="r_1" type="CarB" color="0.1,1,1" />
+    <vehicle depart="1790" id="veh179" route="r_2" type="CarC" color="0.2,1,1" />
+    <vehicle depart="1800" id="veh180" route="r_3" type="CarD" color="1,1,0.2" />
+    <vehicle depart="1810" id="veh181" route="r_4" type="CarA" color="1,1,0.3" />
+    <vehicle depart="1820" id="veh182" route="r_5" type="CarB" color="0.3,1,1" />
+    <vehicle depart="1830" id="veh183" route="r_6" type="CarC" color="0.4,1,1" />
+    <vehicle depart="1840" id="veh184" route="r_7" type="CarD" color="1,1,0.4" />
+    <vehicle depart="1850" id="veh185" route="r_8" type="CarA" color="1,1,0.5" />
+    <vehicle depart="1860" id="veh186" route="r_9" type="CarB" color="0.5,1,1" />
+    <vehicle depart="1870" id="veh187" route="r_10" type="CarC" color="0.6,1,1" />
+    <vehicle depart="1880" id="veh188" route="r_11" type="CarD" color="1,1,0.6" />
+    <vehicle depart="1890" id="veh189" route="r_12" type="CarA" color="1,1,0.7" />
+    <vehicle depart="1900" id="veh190" route="r_13" type="CarB" color="0.7,1,1" />
+    <vehicle depart="1910" id="veh191" route="r_14" type="CarC" color="0.8,1,1" />
+    <vehicle depart="1920" id="veh192" route="r_15" type="CarD" color="1,1,0.8" />
+    <vehicle depart="1930" id="veh193" route="r_0" type="CarA" color="1,1,0.9" />
+    <vehicle depart="1940" id="veh194" route="r_1" type="CarB" color="0.9,1,1" />
+    <vehicle depart="1950" id="veh195" route="r_2" type="CarC" color="0.1,1,0.1" />
+    <vehicle depart="1960" id="veh196" route="r_3" type="CarD" color="1,1,0.1" />
+    <vehicle depart="1970" id="veh197" route="r_4" type="CarA" color="1,0.2,0.1" />
+    <vehicle depart="1980" id="veh198" route="r_5" type="CarB" color="0.2,1,0.1" />
+    <vehicle depart="1990" id="veh199" route="r_6" type="CarC" color="0.3,0.2,1" />
+</routes>
